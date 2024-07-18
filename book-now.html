@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <h1>TANITI ISLAND</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="entertainment.html">Entertainment</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="lodging.html">Lodging</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+                <li><a href="book-now.html">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Book Now</h2>
+            <p>Taniti awaits!</p>
+        </section>
+        <section class="form-section">
+            <h3>Please fill out the required information and one of our representatives will contact you shortly.</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="arrival-date">Arrival Date:</label>
+                <input type="date" id="arrival-date" name="arrival-date" required>
+                <label for="departure-date">Departure Date:</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+                <label for="accommodation">Accommodation Type:</label>
+                <select id="accommodation" name="accommodation">
+                    <option value="hotel">Hotel</option>
+                    <option value="bed-and-breakfast">Bed & Breakfast</option>
+                    <option value="beach-house">Beach House</option>
+                    <option value="private-condo">Private Condo</option>
+                </select>
+                <label for="comments">Special Requests:</label>
+                <textarea id="comments" name="comments"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="location">
+                <p>77 Taniti Island</p>
+                <p>Taniti, TN</p>
+            </div>
+            <div class="social-media">
+                <p>Social Media</p>
+            </div>
+            <div class="quick-links">
+                <p>Quick Links</p>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="dining.html">Dining</a></li>
+                    <li><a href="lodging.html">Lodging</a></li>
+                    <li><a href="transportation.html">Transportation</a></li>
+                    <li><a href="book-now.html">Reservations</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
